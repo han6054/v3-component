@@ -1,3 +1,6 @@
 module.exports = {
-  lintOnSave: false
+  lintOnSave: false,
+  configureWebpack: {
+    resolve: ['.js', '.vue', '.ts', '.tsx', '.json']
+  }
 }
